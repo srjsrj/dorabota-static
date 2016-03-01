@@ -1,0 +1,46 @@
+doctype
+html( lang="en" )
+    head
+        include _head.jade
+
+    body.b-body
+        .b-site-container
+            include _bHeader.jade
+            //- CONTENT ZONE START
+            .b-content
+                .container-fluid
+                    h3 Please read `README.md` before using this pack.
+                    hr
+                    h2#typography Typography test
+                    .media
+                        .media-left.media-middle
+                            h1
+                                | h1 
+                                small small
+                        .media-left.media-middle
+                            .h2
+                                | h2 
+                                small small
+                        .media-left.media-middle
+                            h3
+                                | h3 
+                                small small
+                        .media-left.media-middle
+                            .h4
+                                | h4 
+                                small small
+                        .media-left.media-middle
+                            h5
+                                | h5 
+                                small small
+                        .media-left.media-middle
+                            .h6
+                                | h6 
+                                small small
+
+
+            //- CONTENT ZONE END
+            include _bFooter.jade
+        
+
+        include _scripts.jade

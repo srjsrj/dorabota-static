@@ -1,0 +1,22 @@
+{
+  "name": "DoRabota",
+  "version": "1.0.0",
+  "authors": [
+    "srjsrj <sergeyappleyard@gmail.com>"
+  ],
+  "description": "Starter kit",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}

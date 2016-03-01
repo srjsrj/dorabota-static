@@ -1,0 +1,16 @@
+.container-fluid {
+    max-width: $site-max-width;
+}
+
+.b-header,
+.b-footer {
+    background-color: #6562A2;
+    padding: $grid-gutter-width;
+    text-align: center;
+    color: #fff;
+}
+
+.b-logo {
+    display: block;
+    margin: 0 auto;
+}
