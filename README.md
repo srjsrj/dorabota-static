@@ -1,0 +1,2 @@
+# dorabota-static
+dorabota
